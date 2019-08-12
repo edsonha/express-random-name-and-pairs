@@ -1,14 +1,14 @@
 module.exports.names = [
-  'Jenssen',
-  'Kai',
-  'Shalini',
-  'Gaurav',
-  'Eddie',
-  'Natalie',
+  'Alice',
+  'Ben',
+  'Charlie',
+  'Dan',
+  'Edward',
+  'Fin',
+  'Gomez',
+  'Hazel',
+  'Iris',
   'John',
-  'Brandon',
-  'Dennis',
-  'JinJia',
 ];
 
 module.exports.getRandomName = names => {

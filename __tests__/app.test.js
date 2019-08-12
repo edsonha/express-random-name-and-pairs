@@ -63,7 +63,7 @@ describe("app", () => {
         const response = await request(app)
           .post("/names")
           .set("Content-Type", "application/json")
-          .send({ name: "" });
+          .send({});
 
         expect(response.statusCode).toEqual(400);
       });
@@ -95,7 +95,7 @@ describe("app", () => {
         const response = await request(app)
           .delete("/names")
           .set("Content-Type", "application/json")
-          .send({ name: "" });
+          .send({});
 
         expect(response.statusCode).toEqual(400);
       });
@@ -136,7 +136,7 @@ describe("app", () => {
         const response = await request(app)
           .put("/names")
           .set("Content-Type", "application/json")
-          .send({ oldName: "", newName: "" });
+          .send({});
 
         expect(response.statusCode).toEqual(400);
       });
