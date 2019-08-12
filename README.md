@@ -1,7 +1,6 @@
 # express-random-name-and-pairs
 
-An Express CRUD app that returns random name and pairs to be used during Q&A session in the classroom or pair programming session.  
-The app incorporates testing with supertest and validation using @hapi/joi
+An Express CRUD app that returns random name and pairs for Q&A session in the classroom or forming pair-programming group. The app incorporates testing with supertest and validation using @hapi/joi
 
 ## Expectations
 
